@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--ogp設定-->
+     <meta property="og:url" content="https://github.com/knt-96/novice.onlineshop.git" />
+     <meta property="og:type" content="article" />
+     <meta property="og:title" content="ポートフォリECサイト" />
+     <meta property="og:description" content="未経験エンジニアが、ポートフォリオとして作成したECサイトです" />
+     <meta property="og:site_name" content="novice onlineshop" />
+     <meta property="og:image" content="img/novice_top.jpg" />
+     <!--cssリンク-->
+     <link rel="stylesheet" href="style.css">
+     <!--fontawsomeリンク-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+     <!--ファビコン設定-->
+     <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64" />
+    <title>
+      novice onlineshop
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class="header_box">
+        <h1><a href="index.html"><img src="img/logo.png" alt="novice"></a></h1>
+      </div>
+      <div id="shopping_icon2">
+        <span class="fa-stack">
+          <a href="#"><i class="fas fa-shopping-cart fa-stack-1x"></i></a>
+      </span>
+      </div>
+      <!--sp用ハンバーガーメニュー-->
+            <div id="nav-drawer">
+              <input id="nav-input" type="checkbox" class="nav-unshown">
+              <label id="nav-open" for="nav-input"><span></span></label>
+              <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+              <div id="nav-content" class="nav_inner">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li>
+                    <a href="#">CATEGORY</a></li>
+                  <li><a href="#profile">PROFILE</a></li>
+                  <div class="serch">
+                    <form id="form3" action="#" method="get">
+                      <input id="sbox2"  id="s" name="s" type="text" placeholder="フリーワードを入力"/>
+                      <button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
+                    </form>
+                  </div>
+                  <li class="small"><a href="#">ログイン</a><a href="#">会員登録</a></li>
+              </div>
+          </div>
+     <!---->
+      <nav class="navi_top">
+        <div class="serch">
+          <form id="form2" action="#" method="get">
+            <input id="sbox2"  id="s" name="s" type="text" placeholder="フリーワードを入力"/>
+            <button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+        <div id="shopping_icon">
+          <span class="fa-stack">
+            <a href="#"><i class="fas fa-square-full fa-stack-2x icon_color"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart fa-stack-1x fa-inverse icon_color"></i></a>
+        </span>
+        </div>
+        <div class="menu">
+        <ul>
+          <li><a href="#">Log In</a>
+          <ul>
+            <li><a href="#">会員登録</a></li>
+            <li><a href="#">ログイン</a></li>
+          </ul>
+        </ul>
+      </div>   
+    </nav>
+    <div class="list">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    <ul>
+      <li><a href="#">CATEGORY</a>
+      <ul>
+        <li><a href="#">Tee</a></li>
+        <li><a href="#">Post Card</a></li>
+        <li><a href="#">Case</a></li>
+      </ul>
+    </ul>
+      <li><a href="index.html#profile">PROFILE</a></li>
+    </ul>
+  </div>
+    </header>
+    <main id="product" role="main">
+      <div class="product_menu">
+        <div class="sp_img">
+          <h4><a href="#"><img src="img2/honda_case1.png" alt="quiet tears"></a></h4>
+        </div>
+      <h3>
+        quiet tears/iPhone11<br>
+        1,500円(税込)
+      </h3>
+      <div class="selectbox_color">
+        color : 
+        <select>
+          <option value="">white</option>
+        </select>
+      </div>
+      <div class="title_buy">
+        <a href="#" class="buy_cart">ADD TO CART</a>
+      </div>
+      <div class="text">
+        <p>
+          quiet tears=静かな涙<br>
+          写真とイラストを組み合わせたiPhone11専用ケース<br>
+          製作者 : 本田知大
+        </p>
+      </div>
+    </div>
+    <div class="pc_img">
+      <h2><a href="#"><img src="img2/honda_case1.png" alt="quiet tears"></a></h2>
+    </div>
+    </main>
+    <div class="link">
+      <div class="social_icons">
+        <a href="https://www.instagram.com/novice6699/"><i class="fab fa-instagram fa-2x icon_color"></i></a>
+      </div>
+      <div class="contact">
+        <a href="mailto:novice6699@gmail.com">お問い合わせ</a>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &#169; 2020 Novice Project. All Rights Reserved. </p>
+    </footer>
+  </body>
